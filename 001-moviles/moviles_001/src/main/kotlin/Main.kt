@@ -77,7 +77,51 @@ fun main(args: Array<String>) {
 
              println("Inicializando")
          }
+
+         constructor(
+             uno: Int?,
+             dos: Int
+         ): this(
+             if (uno == null) 0 else uno,
+             dos
+         ){
+             numeroUno
+         }
+
+         constructor(
+             uno: Int,
+             dos: Int?
+         ): this(
+             uno,
+             if (dos == null) 0 else uno
+         )
+
+         constructor(
+             uno: Int?,
+             dos: Int?
+         ) : this(
+             if (uno ==null) 0 else uno,
+             if (dos == null) 0 else uno
+         )
+
+         public fun sumar(): Int {
+             val total = numeroUno+ numeroDos
+             agregarHistorial(total)
+             return total
+         }
+
+         companion object{
+             val pi = 3.14
+             fun elevarAlCuadrado(num: Int): Int{
+                 return  num * num
+             }
+             val historialSumas = arrayListOf<Int>()
+             fun agregarHistorial(valorNuevaSuma: Int){
+                 historialSumas.add(valorNuevaSuma)
+             }
+         }
      }
+
 
     abstract class Numeros(//Constructor Primario
         //Ejemplo:
@@ -97,4 +141,15 @@ fun main(args: Array<String>) {
             println("Inicializando")
         }
     }
+
+    class Suma(
+        uno: Int,
+        dos: Int
+    ): Numeros(uno, dos){
+        init{
+            this.numeroUno; numeroUno;
+            this.numeroDos; numeroDos;
+        }
+    }
 }
+

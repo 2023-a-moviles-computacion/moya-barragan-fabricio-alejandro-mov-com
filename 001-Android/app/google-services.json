@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "489038370364",
+    "project_id": "a-mov-com-famb",
+    "storage_bucket": "a-mov-com-famb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:489038370364:android:1d141918d9adb48ad49539",
+        "android_client_info": {
+          "package_name": "com.example.movilescomp2023"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "489038370364-kibptlo12qhc461lj05hg8hm7dmnstq0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQKavG_lrPNCpoc_RBQw31ImVE21kwWOs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "489038370364-kibptlo12qhc461lj05hg8hm7dmnstq0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
