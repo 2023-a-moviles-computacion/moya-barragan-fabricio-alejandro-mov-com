@@ -1,0 +1,2 @@
+1,Limites,Lethold,10,2023-03-23
+2,Derivadas,Newton,10.0,1670-08-13
