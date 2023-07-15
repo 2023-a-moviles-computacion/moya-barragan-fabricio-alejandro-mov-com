@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActualizarTema">
+
+    <EditText
+        android:id="@+id/et_upd_idTema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="ID ASIGNATURA"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.116" />
+
+    <EditText
+        android:id="@+id/et_upd_nombTema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Tema"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_idTema"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_idTema"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_idTema" />
+
+    <EditText
+        android:id="@+id/et_upd_autorTema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Autor"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_nombTema"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_nombTema"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_nombTema" />
+
+    <EditText
+        android:id="@+id/et_upd_califTema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Calificación"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_autorTema"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_autorTema"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_autorTema" />
+
+    <EditText
+        android:id="@+id/et_upd_fechaTema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="AAAA-MM-DD"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_califTema"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_califTema"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_califTema" />
+
+    <EditText
+        android:id="@+id/et_upd_idAlbTema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="ID Asignatura"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_fechaTema"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_fechaTema"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_fechaTema" />
+
+    <Button
+        android:id="@+id/btn_upd_Tema"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="ACTUALIZAR TEMA"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_idAlbTema"
+        app:layout_constraintHorizontal_bias="0.508"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_idAlbTema"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_idAlbTema" />
+</androidx.constraintlayout.widget.ConstraintLayout>

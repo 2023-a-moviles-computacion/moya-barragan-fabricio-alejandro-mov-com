@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ActualizarAsignatura">
+
+    <EditText
+        android:id="@+id/et_upd_idAsi"
+        android:layout_width="194dp"
+        android:layout_height="50dp"
+        android:ems="10"
+        android:hint="ID"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.132" />
+
+    <EditText
+        android:id="@+id/et_upd_nombAsi"
+        android:layout_width="194dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Asignatura"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_idAsi"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_idAsi"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_idAsi" />
+
+    <EditText
+        android:id="@+id/et_upd_autorAsi"
+        android:layout_width="194dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Docente"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_nombAsi"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_nombAsi"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_nombAsi" />
+
+    <EditText
+        android:id="@+id/et_upd_fechaAsi"
+        android:layout_width="194dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="AAAA-MM-DD"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_autorAsi"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_autorAsi"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_autorAsi" />
+
+    <EditText
+        android:id="@+id/et_upd_estadoAsi"
+        android:layout_width="194dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Favorito (Si o No)"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_fechaAsi"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_fechaAsi"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_fechaAsi" />
+
+    <Button
+        android:id="@+id/btn_upd_Asignatura"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="ACTUALIZAR ASIGNATURA"
+        app:layout_constraintEnd_toEndOf="@+id/et_upd_estadoAsi"
+        app:layout_constraintStart_toStartOf="@+id/et_upd_estadoAsi"
+        app:layout_constraintTop_toBottomOf="@+id/et_upd_estadoAsi" />
+</androidx.constraintlayout.widget.ConstraintLayout>

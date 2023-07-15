@@ -1,2 +1,4 @@
 1,Limites,Lethold,10,2023-03-23
 2,Derivadas,Newton,10.0,1670-08-13
+3,Dinamica,Edagar Haro,9,1960-08-03
+4,Programacion,D Commer,10.0,1904-12-01
