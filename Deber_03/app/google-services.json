@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "987909751714",
+    "project_id": "deber02jagf",
+    "storage_bucket": "deber02jagf.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:987909751714:android:06f9cc45f13d8a9bfde8fb",
+        "android_client_info": {
+          "package_name": "com.example.deber02jagf"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "987909751714-3gin3v4o7ab5sh78pjsf89f26k2cl8tt.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA4iqIRsz40gsFl-IoO-PajtDHeG9_cNMA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "987909751714-3gin3v4o7ab5sh78pjsf89f26k2cl8tt.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
