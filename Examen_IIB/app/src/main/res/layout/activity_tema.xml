@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tema">
+
+    <EditText
+        android:id="@+id/editText_idasignatura"
+        android:layout_width="194dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="ID Asignatura"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editText_calificacion"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editText_calificacion"
+        app:layout_constraintTop_toBottomOf="@+id/editText_fecha" />
+
+    <EditText
+        android:id="@+id/editText_fecha"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="AAA-MM-DD"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editText_calificacion"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/editText_calificacion"
+        app:layout_constraintTop_toBottomOf="@+id/editText_calificacion" />
+
+    <EditText
+        android:id="@+id/editText_calificacion"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Calificación"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editText_autor"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editText_autor"
+        app:layout_constraintTop_toBottomOf="@+id/editText_autor" />
+
+    <EditText
+        android:id="@+id/editText_autor"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:hint="Autor"
+        android:inputType="textPersonName"
+        app:layout_constraintEnd_toEndOf="@+id/editText_tema"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/editText_tema"
+        app:layout_constraintTop_toBottomOf="@+id/editText_tema" />
+
+    <EditText
+        android:id="@+id/editText_tema"
+        android:layout_width="194dp"
+        android:layout_height="40dp"
+        android:ems="10"
+        android:hint="Nombre"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.178" />
+
+    <Button
+        android:id="@+id/btn_insert"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="28dp"
+        android:text="INSERTAR"
+        app:layout_constraintEnd_toEndOf="@+id/editText_fecha"
+        app:layout_constraintHorizontal_bias="0.505"
+        app:layout_constraintStart_toStartOf="@+id/editText_fecha"
+        app:layout_constraintTop_toBottomOf="@+id/editText_idasignatura" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
