@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#E8E3E3">
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="399dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:paddingBottom="10dp">
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="138dp"
+                android:background="#FBFBFB"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/tvnombreArchivo"
+                    android:layout_width="231dp"
+                    android:layout_height="39dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Nombre del archivo"
+                    android:textColor="#AE000000"
+                    android:textSize="20sp"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.085"
+                    app:layout_constraintStart_toEndOf="@+id/imArchivo"
+                    app:layout_constraintTop_toTopOf="parent" />
+
+                <TextView
+                    android:id="@+id/tvalmacenamientoArchivo"
+                    android:layout_width="194dp"
+                    android:layout_height="27dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginTop="7dp"
+                    android:text="Almacenamiento"
+                    android:textColor="#7A000000"
+                    android:textSize="20sp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.193"
+                    app:layout_constraintStart_toEndOf="@+id/imArchivo"
+                    app:layout_constraintTop_toBottomOf="@+id/tvnombreArchivo"
+                    app:layout_constraintVertical_bias="0.0" />
+
+                <TextView
+                    android:id="@+id/tvfechaArchivo"
+                    android:layout_width="191dp"
+                    android:layout_height="38dp"
+                    android:layout_gravity="left"
+                    android:layout_margin="5dp"
+                    android:layout_marginEnd="52dp"
+                    android:text="Fecha"
+                    android:textColor="#7A000000"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.521"
+                    app:layout_constraintStart_toEndOf="@+id/imArchivo"
+                    app:layout_constraintTop_toBottomOf="@+id/tvalmacenamientoArchivo"
+                    app:layout_constraintVertical_bias="0.272" />
+
+                <ImageView
+                    android:id="@+id/imArchivo"
+                    android:layout_width="94dp"
+                    android:layout_height="108dp"
+                    android:layout_marginStart="16dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.38"
+                    app:srcCompat="@drawable/ic_baseline_feed_24" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</RelativeLayout>
